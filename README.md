@@ -7,7 +7,7 @@ SecureSpine++ protects your spine without breaking coding flow or compromising p
 
 ## Use It Instantly in Your Browser (Zero Installation)
 
-Open the live web app in Chrome or Edge: **`[https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)`**
+Open the live web app in Chrome or Edge: **`https://securespine-pp.vercel.app/`**
 
 * **100% On-Device AI:** Webcam pose detection runs locally inside your browser via WebAssembly. **Zero video frames ever leave your device.**
 * **Automatic Browser Persistence:** Your deep-focus sprint timer, milestone logs, and verified breaks save automatically in your browser.
