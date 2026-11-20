@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
 import { repo } from "./db.js";
+import { generateErgonomicCoaching } from "./ai-router.js";
+
 
 const app = express();
 const PORT = 4000;
@@ -8,6 +10,10 @@ const PORT = 4000;
 app.use(cors());
 app.use(express.json());
 
+app.post("/api/coach", async (req, res) => {
+  const result = await generateErgonomicCoaching(req.body || {});
+  res.json(result);
+});
 let clients = [];
 
 function broadcast(payload) {
