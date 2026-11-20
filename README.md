@@ -1,4 +1,3 @@
-Replace your `README.md` with this completely end-user-focused version—written directly for developers and judges visiting your project to try it online or run it on their machine:
 
 # SecureSpine++
 
