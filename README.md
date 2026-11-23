@@ -18,7 +18,7 @@ Open the live web app in Chrome or Edge: **`https://securespine-pp.vercel.app/`*
 Want SecureSpine++ to automatically trigger recovery breaks every time you run `git commit` in your terminal? Clone the repository and run the lightweight local companion:
 
 1. **Download & Start the Local SQLite Bridge:**
-Run `git clone [https://github.com/YOUR_USERNAME/securespine-pp.git](https://github.com/YOUR_USERNAME/securespine-pp.git)`, move into `securespine-pp/server`, and run `npm install` followed by `npm start`.
+Run `git clone [https://github.com/meskat880/securespine-pp.git](https://github.com/meskat880/securespine-pp.git)`, move into `securespine-pp/server`, and run `npm install` followed by `npm start`.
 2. **Connect Your Git Repository:**
 From the project root, run `node server/install-git-hook.js /path/to/your-repo` to wire up automatic `post-commit` break triggers.
 3. **Launch Your Local Dashboard:**
